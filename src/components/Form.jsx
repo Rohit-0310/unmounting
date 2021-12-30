@@ -22,8 +22,12 @@ export const Form = () =>{
             <h3>Counter: {counter} </h3>
             <button
                 onClick={() => {
-                    setCounter(counter + 1)
-                }} >Add 1</button>
+                    setCounter(counter - 10)
+                }} >Remove 10</button>
+            <button
+                onClick={() => {
+                    setCounter(counter + 10)
+                }} >Add 10</button>
 
         </div>
     );
